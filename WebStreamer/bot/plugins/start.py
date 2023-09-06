@@ -11,7 +11,7 @@ async def start(b, m):
     lang = Language(m)
     pic ="https://graph.org/file/e760263625fdc45f7a63b.jpg"
     media = InputMediaPhoto(pic, caption=lang.START_TEXT.format(m.from_user.mention))
-    await m.reply_text(media[media], parse_mode=ParseMode.HTML, disable_web_page_preview=True, reply_markup=BUTTON.START_BUTTONS)
+    await m.reply_text(media=[media], parse_mode=ParseMode.HTML, disable_web_page_preview=True, reply_markup=BUTTON.START_BUTTONS)
 
 
 @StreamBot.on_message(filters.private & filters.command(["about"]))

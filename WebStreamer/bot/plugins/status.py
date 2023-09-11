@@ -39,7 +39,7 @@ async def start(b: Client, m: Message):
 ├<b>CPU:</b> {cpuUsage}% 
 ├<b>RAM:</b> {memory}% 
 ╰<b>Disk:</b> {disk}%\n\n
-●<b>𝙈𝙖𝙞𝙣𝙩𝙖𝙞𝙣 𝘽𝙔: [🇹​​🇴​​🇲​​🇪​​🇳​](https://t.me/KingOfFondness)</b>\n"""
+●<b>𝙈𝙖𝙞𝙣𝙩𝙖𝙞𝙣 𝘽𝙔: [TOMEN​](https://t.me/TOMENBOTS)</b>\n"""
 
     await m.reply_text(
         text=sys_stat,
